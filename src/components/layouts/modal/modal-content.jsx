@@ -14,65 +14,67 @@ function ModalContent({ setShowStory }) {
           </button>
         </div>
         <div className="full-story">
-          RECENT PROJECTS.
-          BookLaunchify - Health and Fitness Book Landing React Template
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
+          <img className='Author' src="images/author.jpg" alt="Mortuza Karzon" />
 
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
+          <div className="profile-card">
+            <h1>My Journey</h1>
+            <p>
+              In 2012, I started my career as a freelance writer, but I felt a constant
+              dissatisfaction. Upon introspection, I discovered my passion for
+              mathematics and logical reasoning, leading me to become a software
+              engineer.
+            </p>
+            <p>
+              At the age of 35, I delved into software development, dedicating myself
+              to continuous learning and crafting captivating user interfaces.
+            </p>
 
-          View Demo
-          images/pricing.jpg
-          images/pricing.jpg
-          BookLaunchify - Health and Fitness Book Landing React Template
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
+            <h2 className="my-skill">My Skills</h2>
 
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
+            <div className="skill-category">
+              <h3>Front-End</h3>
+              <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React JS, React-Router</li>
+                <li>React-Bootstrap, Tailwind, DaisyUI, Material UI</li>
+              </ul>
+            </div>
 
-          RECENT PROJECTS.
-          BookLaunchify - Health and Fitness Book Landing React Template
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
+            <div className="skill-category">
+              <h3>Backend</h3>
+              <ul>
+                <li>Node.js, Express.js</li>
+                <li>JWT, dotenv</li>
+              </ul>
+            </div>
 
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
+            <div className="skill-category">
+              <h3>Database</h3>
+              <ul>
+                <li>MongoDB, Firebase</li>
+              </ul>
+            </div>
 
-          View Demo
-          images/pricing.jpg
-          images/pricing.jpg
-          BookLaunchify - Health and Fitness Book Landing React Template
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
+            <div className="skill-category">
+              <h3>Tools</h3>
+              <ul>
+                <li>Git, Vercel, VS Code, Netlify</li>
+                <li>Figma, Photoshop, Illustrator</li>
+                <li>Dev-Tools</li>
+              </ul>
+            </div>
 
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
+            <p>
+              Check out my work on GitHub:{' '}
+              <a href="https://github.com/mortuzakarzon" target="_blank" rel="noopener noreferrer">
+                GitHub: mortuzakarzon
+              </a>
+            </p>
+          </div>
 
-
-          RECENT PROJECTS.
-          BookLaunchify - Health and Fitness Book Landing React Template
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
-
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
-
-          View Demo
-          images/pricing.jpg
-          images/pricing.jpg
-          BookLaunchify - Health and Fitness Book Landing React Template
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
-
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
-
-          RECENT PROJECTS.
-          BookLaunchify - Health and Fitness Book Landing React Template
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
-
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
-
-          View Demo
-          images/pricing.jpg
-          images/pricing.jpg
-          BookLaunchify - Health and Fitness Book Landing React Template
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
-
-          BookLaunchify is a meticulously crafted one-page template designed specifically for authors in the health and wellness book industry. This responsive HTML5 Bootstrap React template is your ideal choice for showcasing and selling your books or eBooks related to health, fitness, and nature. In today's evolving commerce landscape, where the demand for e-books is steadily increasing, it is crucial to have the right platform for effective book promotion.
         </div>
 
-      </div>
+      </div >
     </div >
   );
 }

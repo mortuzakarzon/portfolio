@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ModalContent from "../modal/modal-content";
 
 function About() {
@@ -7,17 +7,38 @@ function About() {
 
   const handleShowStory = () => {
     setShowStory((story) => !story);
+
   }
+
+  useEffect(() => {
+    const handleKeyPress = (event) => {
+      if (event.key === 'Escape') {
+        handleShowStory();
+      }
+    };
+
+    // Add event listener for the 'keydown' event
+    document.addEventListener('keydown', handleKeyPress);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      document.removeEventListener('keydown', handleKeyPress);
+    };
+  }, []); // The empty dependency array ensures that the effect runs only once when the component mounts
+
+
+
   return (
     <div className="section-about">
       <div className="about">
         <h2 className="Heading heading-secondary">&#60;About /&#62;</h2>
-        <h3>INSPIRED BY DIFFERENCE.</h3>
+        <h3 className="heading-tertiary">INSPIRED BY DIFFERENCE.</h3>
         <p className="about-bio">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.
+          I enjoy working closely with design teams to faithfully translate their designs right down to the last pixel. Daily, you'll find me using modern frontend technologies that bring the creative process to life just as designers intended them to be. You'll find me primarily
+          using React, GraphQL, Netflify, and in general anything JavaScript, HTML and CSS related.
         </p>
         <p className="about-text">
-          Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.
+          Gardening has been my cherished hobby since childhood, adding a touch of nature's creativity to my life as a front-end React developer. Tending to plants taught me patience, and now I apply that same care to crafting seamless user interfaces. In the world of coding and cultivation, I find a harmonious balance between the organic and the digital.
         </p>
 
         <button className="btn btn--full about-button" onClick={handleShowStory}> My whole story</button>

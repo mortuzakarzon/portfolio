@@ -6,7 +6,7 @@ function Expertise() {
 
   return (<div className="section-expertise">
     <h2 className="Heading heading-secondary">&#60;My Expertise /&#62;</h2>
-    <h3>RESULTS DRIVEN DESIGN AND DEVELOPEMENT.</h3>
+    <h3 className="heading-tertiary">RESULTS DRIVEN DESIGN AND DEVELOPEMENT.</h3>
 
     <div className="expertise-items">
       <div className="expertise-item">

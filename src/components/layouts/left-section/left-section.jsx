@@ -34,12 +34,10 @@ function LeftSection() {
 
       <div className="hero-text-box">
         <h2 className='heading heading-primary'>
-          Hello. I’m a freelance Front-end Developer.
+          Hello. I’m a Full Stack Web App Craftsman.
         </h2>
-        <h3 className='heading-tertiary '>
-          My name is Mortuza Karzon. I enjoy working closely with design teams to faithfully translate
-          their designs right down to the last pixel. Daily, you'll find me
-          using modern frontend technologies.  Technical Right now you can find me hacking away primarily with React, GraphQL, Netflify, React and in general anything JavaScript, HTML and CSS related.
+        <h3 className='sub-title'>
+          My name’s Mortuza. I am  a passionate engineer for intuitive experiences and I craft web app using modern front end and backend technogies.
         </h3>
 
         <button className='btn btn--outline'>Let's Start Work Together</button>
