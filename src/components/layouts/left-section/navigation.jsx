@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 
 
@@ -44,24 +43,6 @@ const menus = [
 
 
 function Navigation() {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-
-  const handleScroll = () => {
-    if (window.scrollY > 100) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
-  };
-
 
   return (<div className='section-nav'>
     <div className="nav">
