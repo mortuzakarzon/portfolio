@@ -302,7 +302,7 @@ audio {
 }
 
 .nav input:checked ~ .menu {
-  width: 410px;
+  width: 64.45rem;
 }
 
 .menu li {

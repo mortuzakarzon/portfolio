@@ -36,7 +36,7 @@ function Experiences() {
   };
 
   return (
-    <div className="section-experiences">
+    <div className="section-experiences" id="experiences">
       <h2 className="Heading heading-secondary">&#60;Professional Experiences /&#62;</h2>
       <h3 className="heading-tertiary">RESULTS DRIVEN DESIGN AND DEVELOPMENT.</h3>
 

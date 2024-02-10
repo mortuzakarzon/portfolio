@@ -29,7 +29,7 @@ function About() {
 
 
   return (
-    <div className="section-about">
+    <div className="section-about" id="about">
       <div className="about">
         <h2 className="Heading heading-secondary">&#60;About /&#62;</h2>
         <h3 className="heading-tertiary">INSPIRED BY DIFFERENCE.</h3>

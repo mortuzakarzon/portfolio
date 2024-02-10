@@ -15,7 +15,7 @@ function Contact() {
       });
   }
   return (
-    <div className="section-contact">
+    <div className="section-contact" id='contact'>
 
       <h2 className="Heading heading-secondary">&#60;Contact /&#62;</h2>
       <h3 className="heading-tertiary">RESULTS DRIVEN DESIGN AND DEVELOPEMENT.</h3>

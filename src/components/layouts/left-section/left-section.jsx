@@ -1,36 +1,13 @@
 import React from 'react';
+import { HashLink } from "react-router-hash-link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub, faSquareFacebook, faSquareXTwitter, faLinkedin, } from '@fortawesome/free-brands-svg-icons';
-
+import Navigation from './navigation';
 function LeftSection() {
 
   return (<div className="left-section">
     <div className="section-hero">
-      <div className='section-nav'>
-        <div className="nav">
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <div className="menu">
-            <li>
-              <a href="#.co">home</a>
-            </li>
-            <li>
-              <a href="#.co">about</a>
-            </li>
-            <li>
-              <a href="#.co">cursos</a>
-            </li>
-            <li>
-              <a href="#.co">blog</a>
-            </li>
-            <li>
-              <a href="#.co">contact</a>
-            </li>
-
-          </div>
-        </div>
-      </div>
+      <Navigation />
 
       <div className="hero-text-box">
         <h2 className='heading heading-primary'>
@@ -39,9 +16,18 @@ function LeftSection() {
         <h3 className='sub-title'>
           My name’s Mortuza. I am  a passionate engineer for intuitive experiences and I craft web app using modern front end and backend technogies.
         </h3>
+        <HashLink
+          to="#contact"
+          className="main-nav-link js-scroll-trigger"
+        >
+          <button className='btn btn--outline'>
 
-        <button className='btn btn--outline'>Let's Start Work Together</button>
+            Let's Start Work Together
 
+
+
+          </button>
+        </HashLink>
 
 
       </div>

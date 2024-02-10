@@ -1,6 +1,6 @@
 function Blog() {
 
-  return (<div className="section-blog">
+  return (<div className="section-blog" id="blog">
 
     <h2 className="Heading heading-secondary">&#60;My Blog /&#62;</h2>
     <h3 className="heading-tertiary">RESULTS DRIVEN DESIGN AND DEVELOPEMENT.</h3>

@@ -35,7 +35,7 @@ const content = [
 function WorkApp() {
 
 
-  return (<div className="section-work">
+  return (<div className="section-work" id='work'>
     <div className="work">
       <h2 className="Heading heading-secondary">&#60;Work /&#62;</h2>
       <h3 className='heading-tertiary'>RECENT PROJECTS.</h3>

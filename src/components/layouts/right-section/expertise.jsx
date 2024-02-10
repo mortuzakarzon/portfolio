@@ -4,7 +4,7 @@ import { faUncharted, faReact, faNodeJs } from '@fortawesome/free-brands-svg-ico
 
 function Expertise() {
 
-  return (<div className="section-expertise">
+  return (<div className="section-expertise" id="expertise">
     <h2 className="Heading heading-secondary">&#60;My Expertise /&#62;</h2>
     <h3 className="heading-tertiary">RESULTS DRIVEN DESIGN AND DEVELOPEMENT.</h3>
 
