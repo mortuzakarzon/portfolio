@@ -35,7 +35,7 @@ function About() {
         <h3 className="heading-tertiary">INSPIRED BY DIFFERENCE.</h3>
         <p className="about-bio">
           I enjoy working closely with design teams to faithfully translate their designs right down to the last pixel. Daily, you'll find me using modern frontend technologies that bring the creative process to life just as designers intended them to be. You'll find me primarily
-          using React, GraphQL, Netflify, and in general anything JavaScript, HTML and CSS related.
+          using React, GraphQL, Netflify, and in general anything related to JavaScript, HTML and CSS.
         </p>
         <p className="about-text">
           Gardening has been my cherished hobby since childhood, adding a touch of nature's creativity to my life as a front-end React developer. Tending to plants taught me patience, and now I apply that same care to crafting seamless user interfaces. In the world of coding and cultivation, I find a harmonious balance between the organic and the digital.
