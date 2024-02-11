@@ -3,44 +3,64 @@ function Blog() {
   return (<div className="section-blog" id="blog">
 
     <h2 className="Heading heading-secondary">&#60;My Blog /&#62;</h2>
-    <h3 className="heading-tertiary">RESULTS DRIVEN DESIGN AND DEVELOPEMENT.</h3>
+    <h3 className="heading-tertiary">I WRITE SOMETIMES.</h3>
     <div className="blogs">
       <div className="blog-item">
-        <img src="images/booklaucify.jpg" alt="blog title" />
-        <h2>This is blog Title will be shown.</h2>
+        <div className="blog-image">
+          <img src="images/useeffect.png" alt="blog title" />
+        </div>
+        <div className="blog-content">
+          <h2><a className="test" href="https://github.com/mortuzakarzon" target="_blank" rel="noopener noreferrer">A Simple Explanation of React.useEffect()</a></h2>
+          <p className="test">
+            I am impressed by the expressiveness of React hooks. You can do so much by writing so little.
 
-        <p className="test">
-          My name is Mortuza Karzon. I enjoy working closely with design teams to faithfully translate
-          their designs right down to the last pixel. Daily, you'll find me
-          using modern frontend technologies.  Technical Right now you can find me hacking away primarily with React, GraphQL, Netflify, React and in general anything...
-        </p>
-        <br></br><br></br>
-        <p className="test">
-          My name is Mortuza Karzon. I enjoy working closely with design teams to faithfully translate
-          their designs right down to the last pixel. Daily, you'll find me
-          using modern frontend technologies.  Technical Right now you can find me hacking away primarily with React, GraphQL, Netflify, React and in general anything...
-        </p>
-        <a className="test" href="www.facbook.com">Learn More</a>
+            But the brevity of hooks comes at a price — they're relatively difficult to understand at the beginning. That's especially true for useEffect() — the hook that manages side-effects in functional React components.
+
+            I'll help you understand useEffect() in an accessible way. Let's get started.
+          </p>
+          <br></br><br></br>
+          <p className="test">
+            A functional React component uses props and/or state to calculate the output. If the component makes calculations that don't target the output value, then these calculations are named side-effects.
+
+            Examples of side-effects are fetch requests, manipulating DOM directly, using timer functions like setTimeout(), and more.
+
+            Component rendering and the side-effect logic are independent. Performing side-effects directly in the body of the component is a mistake, because the body computes the component's output or calls hooks....
+          </p>
+          <a className="test" href="https://github.com/mortuzakarzon" target="_blank" rel="noopener noreferrer">Learn More</a>
+        </div>
+
+
+
       </div>
 
       <div className="blog-item">
-        <img src="images/movie.jpg" alt="blog title" />
-        <h2>Second tile for the blog genaration.</h2>
+        <div className="blog-image">
+          <img src="images/renders.png" alt="blog title" />
+        </div>
+        <div className="blog-content">
+          <h2><a className="test" href="https://github.com/mortuzakarzon" target="_blank" rel="noopener noreferrer">Explain the purpose of render() in ReactJS</a></h2>
+          <p className="test">
+            Render in React JS is a fundamental part of class components. It is used to display the component on the UI returned as HTML or JSX components. The ReactDOM.render() function takes two arguments, HTML code and an HTML element.
 
-        <p className="test">
-          My name is Mortuza Karzon. I enjoy working closely with design teams to faithfully translate
-          their designs right down to the last pixel. Daily, you'll find me
-          using modern frontend technologies.  Technical Right now you can find me hacking away primarily with React, GraphQL, Netflify, React and in general anything...
-        </p>
-        <br></br><br></br>
-        <p className="test">
-          My name is Mortuza Karzon. I enjoy working closely with design teams to faithfully translate
-          their designs right down to the last pixel. Daily, you'll find me
-          using modern frontend technologies.  Technical Right now you can find me hacking away primarily with React, GraphQL, Netflify, React and in general anything...
-        </p>
-        <a className="test" href="www.facbook.com">Learn More</a>
+            Purpose of render()
+            React renders HTML to the web page by using a function called render().
+            The purpose of the function is to display the specified HTML code inside the specified HTML element.
+            In the render() method, we can read props and state and return our JSX code to the root component of our app.
+            In the render() method, we cannot change the state, and we cannot cause side effects( such as making an HTTP request to the webserver).
+            Let’s understand the render function with an example.
+          </p>
+          <br></br><br></br>
+          <p className="test">
+            In the render() method, we can read props and state and return our JSX code to the root component of our app.
+            In the render() method, we cannot change the state, and we cannot cause side effects( such as making an HTTP request to the webserver).
+            Let’s understand the render function with an example.
+          </p>
+          <a className="test" href="https://github.com/mortuzakarzon" target="_blank" rel="noopener noreferrer">Learn More</a>
+        </div>
+
+
+
       </div>
-
 
 
     </div>

@@ -18,7 +18,7 @@ function Expertise() {
         <div className="item-description">
           <div className='description-text'>
 
-            Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.
+            Experienced in both functional and OOP: JavaScript, TypeScript.
 
           </div>
         </div>
@@ -35,7 +35,7 @@ function Expertise() {
         <div className="item-description">
           <div className='description-text'>
 
-            Passionate about UI/UX. Over 4 years of development experience in HTML, CSS, JS, React and NextJS frameworks.
+            Passionate about UI/UX. Over 4 years of development experience in HTML, CSS, JS, Tailwind, Bootstrap, React Libraries.
 
           </div>
         </div>

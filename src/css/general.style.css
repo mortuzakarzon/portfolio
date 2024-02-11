@@ -129,6 +129,12 @@ button {
   border: none;
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .btn,
 .btn--full,
 .btn--outline {
@@ -138,26 +144,34 @@ button {
   font-weight: 500;
   padding: 1rem 3rem;
   border-radius: 6px;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
   background-color: transparent; /* Set background-color to transparent */
   color: #757d75; /* Set the text color */
 }
+button {
+  transition: all 0.3s;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #85d694;
+}
 
 .btn--outline {
   border: 3px solid #6f6f6f; /* Set the border color */
+  margin-left: 1.2rem;
 }
 
 .btn--full,
 .btn--full:visited {
+  padding: 1.3rem 3rem;
   color: #fff;
   background-color: #064469;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #021b2a;
-  color: #fff;
+  box-shadow: 0 0 10px #85d694;
 }
 
 .btn--outline,
@@ -168,7 +182,7 @@ button {
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #b8cad4;
+  box-shadow: 0 0 10px #85d694;
 }
 .arrow-button {
   font-size: 4rem;
@@ -181,6 +195,12 @@ button {
 /* Layout */
 .container {
   display: flex;
+  position: relative;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .left-section {
@@ -255,23 +275,59 @@ audio {
 .social-media {
   margin-bottom: 10.8rem;
 }
-.social-icon {
+
+.social-icon ul {
   display: flex;
-  font-size: 2.4rem;
-  color: #333;
-  gap: 1.4rem;
-  cursor: pointer;
+  position: absolute;
 }
 
+.social-icon ul li {
+  list-style: none;
+  margin: 0 6px;
+}
+
+.social-icon ul li a {
+  position: relative;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  background: #333;
+  border-radius: 6px;
+  font-size: 1.8rem;
+  color: #a6a6a6;
+  transition: 0.5s;
+}
+
+.social-icon ul li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  background: #85d694;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.social-icon ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #85d694;
+}
+
+.social-icon ul li a:hover {
+  color: #85d694;
+  box-shadow: 0 0 5px #85d694;
+  text-shadow: 0 0 5px #85d694;
+}
 .social-title {
   font-size: 2.4rem;
   margin-top: 3rem;
   margin-bottom: 4px;
-}
-
-.icon:hover {
-  color: #b8cad4;
-  color: #161919;
 }
 
 /* Menu */
@@ -328,6 +384,9 @@ audio {
   cursor: pointer;
   opacity: 0;
 }
+.nav input:hover {
+  text-shadow: 0 0 10px #85d694;
+}
 
 .nav span {
   position: absolute;
@@ -341,9 +400,11 @@ audio {
 }
 
 .nav input:checked ~ span {
-  background-color: #f974a1;
+  background-color: #021b2a;
 }
-
+.nav input:checked ~ span:hover {
+  text-shadow: 0 0 10px #85d694;
+}
 .nav span:nth-child(2) {
   transform: translateY(-8px);
 }
@@ -403,7 +464,7 @@ audio {
 .work-tabs {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   gap: 4rem;
   flex: 2;
@@ -454,7 +515,7 @@ audio {
   font-weight: 500;
   padding: 0.2rem 1.8rem;
   border-radius: 5px;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
   background-color: transparent; /* Set background-color to transparent */
   color: #757d75; /* Set the text color */
@@ -469,7 +530,8 @@ audio {
 
 .demo-button:hover,
 .demo-button:active {
-  background-color: #b8cad4;
+  box-shadow: 0 0 10px #85d694;
+  text-decoration: none;
 }
 
 /* ****************** */
@@ -590,13 +652,14 @@ audio {
 
 .experience-heading {
   display: flex;
-  background-color: #517c96;
+  background-color: #cddae1;
   justify-content: space-around;
   font-size: 2rem;
   padding: 8px;
-  color: #fff;
+  color: #333;
   align-items: center;
   margin: 1rem;
+  border-radius: 6px;
 }
 .position-company {
   flex: 6;
@@ -614,25 +677,32 @@ audio {
   cursor: pointer;
   font-size: 2.4rem;
   user-select: none;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 50%; /* Use 50% for a circular shape */
   width: 2.4rem; /* Set a fixed width */
   height: 2.4rem; /* Set a fixed height */
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: border 0.4s ease;
+  transition: border 0.3s ease;
 }
 
 .expand-button:hover,
 .expand-button:active {
-  border: 1px solid #fff;
+  border: 2px solid #333;
+  box-shadow: 0 0 10px #85d694;
 }
 
 .experience-content {
-  background-color: #e6edf0;
+  background-color: #f0f4f6;
   margin-top: 1.2rem;
   padding: 2rem;
+}
+
+.linkname a {
+  text-transform: none;
+  text-decoration: none;
+  color: #064469;
 }
 
 .open {
@@ -659,8 +729,15 @@ audio {
 }
 
 .blog-item {
-  padding: 6rem;
   background-color: #ebf0f3;
+  border-radius: 6px;
+}
+.blog-image img {
+  border-radius: 6px 6px 0px 0px;
+}
+
+.blog-content {
+  padding: 6rem;
 }
 /* Contact */
 .section-contact {
@@ -669,6 +746,7 @@ audio {
 
 .test {
   display: inline;
+  color: #064469;
 }
 
 .contact {

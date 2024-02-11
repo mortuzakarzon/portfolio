@@ -4,28 +4,23 @@ const experiencesData = [
   {
     position: "Web App Craftsman",
     company: "Upwork",
+    linkname: "Upwork Profile",
     period: "2023- Present",
-    location: "California, United States (Remote) |",
-    website: "www.upwork.com",
+    location: "California, United States (Remote)",
+    url: "https://www.upwork.com/freelancers/~01ec1eb07cfc30cd29?s=1110580755107926016",
     description: "Experienced web app craftsman dedicated to transforming ideas into seamless, intuitive user experiences. With a passion for clean code and a keen eye for design, I bring efficiency and elegance to every project."
   },
   {
     position: "Software Alchemist",
     company: "Oriole",
+    linkname: "Company Profile",
     period: "2024-Present",
     location: "Khulna, Bangladesh",
-    website: "www.oriolekhulna.com",
+    url: "https://www.freelancer.com/u/creativeleads",
     description: "As a skilled software alchemist, I specialize in forging intuitive web experiences. With a fusion of precision coding and creative flair, I bring your ideas to life with seamless functionality and captivating design."
   },
 
-  {
-    position: "Front end developer",
-    company: "Freelancer.com",
-    period: "2022- 2023",
-    location: "Sydney, Australia(Remote) |",
-    website: "www.freelancer.com",
-    description: "Developing front-end and mobile app solutions (B2C, B2B) in Travel Tech on React/Next.js framework and Flutter SDK."
-  },
+
 ];
 
 function Experiences() {
@@ -38,7 +33,7 @@ function Experiences() {
   return (
     <div className="section-experiences" id="experiences">
       <h2 className="Heading heading-secondary">&#60;Professional Experiences /&#62;</h2>
-      <h3 className="heading-tertiary">RESULTS DRIVEN DESIGN AND DEVELOPMENT.</h3>
+      <h3 className="heading-tertiary">FAITHFULL AND HARDWORKING.</h3>
 
       {experiencesData.map((experience, index) => (
         <div className="experience-item" key={index}>
@@ -54,8 +49,12 @@ function Experiences() {
 
           <div className={`experience-content ${openIndex === index ? "open" : "hide"}`}>
             <div className="location">
-              <span>{experience.location} </span>
-              <span> {experience.website}</span>
+              <span>{experience.location} | </span>
+              <span className="linkname">
+                <a href={experience.url} target="_blank" rel="noopener noreferrer">
+                  {experience.linkname}
+                </a>
+              </span>
             </div>
 
             <div className="description">

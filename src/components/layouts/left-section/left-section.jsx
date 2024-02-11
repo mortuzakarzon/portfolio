@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashLink } from "react-router-hash-link";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareGithub, faSquareFacebook, faSquareXTwitter, faLinkedin, } from '@fortawesome/free-brands-svg-icons';
+
 import Navigation from './navigation';
 function LeftSection() {
 
@@ -33,12 +32,33 @@ function LeftSection() {
       </div>
       <div className="social-media">
         <p className='social-title'>Find me Here:</p>
+
         <div className='social-icon'>
-          <span className='icon'><FontAwesomeIcon icon={faSquareGithub} /></span>
-          <span className='icon'><FontAwesomeIcon icon={faLinkedin} /></span>
-          <span className='icon'><FontAwesomeIcon icon={faSquareFacebook} /></span>
-          <span className='icon'><FontAwesomeIcon icon={faSquareXTwitter} /></span>
+          <ul>
+            <li>
+              <a href="https://github.com/mortuzakarzon" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mortuzakarzon/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/KarzonMort81250" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+              </a>
+
+            </li>
+            <li>
+              <a href="https://edabit.com/user/KrbPyz8jFE5rrzZEp" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-book"></i>
+              </a>
+            </li>
+          </ul>
         </div>
+
       </div>
 
 
