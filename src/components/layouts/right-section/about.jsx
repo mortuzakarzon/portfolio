@@ -47,11 +47,11 @@ function About() {
         <h2 className="Heading heading-secondary">&#60;About /&#62;</h2>
         <h3 className="heading-tertiary">INSPIRED BY DIFFERENCE.</h3>
         <p className="about-bio">
-          Starting as a freelance writer in 2012, I transitioned to software engineering, fueled by a newfound love for mathematics and logic. With a focus on captivating user interfaces, I master frontend technologies like React, React-Bootstrap, and Tailwind. Proficient in Node.js and MongoDB for backend development, I thrive in collaborative environments, faithfully translating designs using modern tools like Figma.
+          I transitioned from freelance writing to software engineering at 35, fueled by a passion for mathematics. Proficient in front-end and back-end technologies, I craft user-centric interfaces and continuously improve through learning and contributing to open-source projects.
         </p>
         <p className="about-text">
 
-          Gardening has been my cherished hobby since childhood, adding a touch of nature's creativity to my life as a web application developer. Much like how I meticulously design and adorn my garden, infusing it with beauty and functionality, I approach front-end development with the same attention to detail. Just as I select the right plants and ornaments to enhance the garden's appeal, in backend development using Node.js, MongoDB, and Express.js, I nurture the soil, ensuring it's fertile for growth, while carefully watering and providing essential nutrition to optimize plant health. Both endeavors require precision and care to achieve flourishing results.
+          Just as I cultivate my garden with planters, lights, and trellises, I build digital gardens using HTML, CSS, and React. Each line of code is a carefully placed element, crafting vibrant user interfaces. But like nourishing roots, the backend thrives on Node, Express, and Mongo, ensuring smooth operation. Every tool, from pruners to servers, serves a purpose, just like my compost feeds new growth in both garden and code. My passion for gardening fuels my creativity, translating nature's harmony into the digital world.
         </p>
 
         <button className="btn btn--full about-button" onClick={handleShowStory}> My whole story</button>

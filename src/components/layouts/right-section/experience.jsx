@@ -26,9 +26,12 @@ const experiencesData = [
 function Experiences() {
   const [openIndex, setOpenIndex] = useState(null);
 
+
   const handleToggle = (index) => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
   };
+
+
 
   return (
     <div className="section-experiences" id="experiences">
@@ -47,7 +50,7 @@ function Experiences() {
             </div>
           </div>
 
-          <div className={`experience-content ${openIndex === index ? "open" : "hide"}`}>
+          <div className={`experience-content ${openIndex === index ? "open fade-in" : "fade-out hide"}`}>
             <div className="location">
               <span>{experience.location} | </span>
               <span className="linkname">

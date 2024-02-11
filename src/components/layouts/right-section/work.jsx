@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const content = [
   {
@@ -66,7 +66,7 @@ function WorkArea() {
     </div>
 
 
-    <WorkContent item={content.at(activeTab)} key={content.at(activeTab).summary} />
+    <WorkContent item={content.at(activeTab)} key={content.at(activeTab).summary} activeTab={activeTab} />
 
 
 
@@ -86,11 +86,23 @@ function Work({ num, activeTab, onSetTab }) {
   );
 }
 
-function WorkContent({ item }) {
+function WorkContent({ item, activeTab }) {
 
-  const isTransitionEnabled = true;
+  const [isTransitionEnabled, setIsTransitionEnabled] = useState(false);
 
-  return (<div className={`work-content ${isTransitionEnabled ? 'work-content-transition' : ''}`}>
+  useEffect(() => {
+    console.log("Active tab changed:", activeTab);
+    setIsTransitionEnabled(true);
+
+    // Disable transition after animation completes
+    const timeout = setTimeout(() => {
+      setIsTransitionEnabled(false);
+    }, 500); // Adjust the timeout value to match your animation duration
+
+    return () => clearTimeout(timeout);
+  }, [activeTab]);
+
+  return (<div className={`work-content ${isTransitionEnabled ? 'fade-in' : ''}`}>
 
 
     <div className="work-item">

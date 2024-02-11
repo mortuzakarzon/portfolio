@@ -37,7 +37,7 @@ function Contact() {
                     <input name="reply_to" type="email" placeholder="me@example.com" required />
                   </div>
                   <div className="full-width">
-                    <textarea className="myTextarea" name="message" rows="10" defaultValue="Your message goes here." />
+                    <textarea className="myTextarea" name="message" rows="10" placeholder="Share your thoughts, ideas, or just say hello!" />
                   </div>
 
                 </div>

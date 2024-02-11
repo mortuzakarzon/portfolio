@@ -42,18 +42,18 @@ function LeftSection() {
             </li>
             <li>
               <a href="https://www.linkedin.com/in/mortuzakarzon/" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
               <a href="https://twitter.com/KarzonMort81250" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
               </a>
 
             </li>
             <li>
               <a href="https://edabit.com/user/KrbPyz8jFE5rrzZEp" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-book"></i>
+                <i className="fas fa-book"></i>
               </a>
             </li>
           </ul>
