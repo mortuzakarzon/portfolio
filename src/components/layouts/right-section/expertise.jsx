@@ -18,7 +18,7 @@ function Expertise() {
         <div className="item-description">
           <div className='description-text'>
 
-            Experienced in both functional and OOP: JavaScript, TypeScript.
+            Proficient in functional and OOP, specializing in JavaScript and TypeScript.
 
           </div>
         </div>
@@ -35,7 +35,7 @@ function Expertise() {
         <div className="item-description">
           <div className='description-text'>
 
-            Passionate about UI/UX. Over 4 years of development experience in HTML, CSS, JS, Tailwind, Bootstrap, React Libraries.
+            Passionate about UI/UX, with 4+ years in HTML, CSS, JS, React.
 
           </div>
         </div>
@@ -50,7 +50,7 @@ function Expertise() {
         <div className="item-description">
           <div className='description-text'>
 
-            Skilled in developing hybrid backend using Node, express, mongodb, firebase, npm, graphql.
+            Skilled in Node, Express, MongoDB, Firebase, npm, and GraphQL.
 
           </div>
         </div>

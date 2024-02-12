@@ -54,7 +54,7 @@ function About() {
           Just as I cultivate my garden with planters, lights, and trellises, I build digital gardens using HTML, CSS, and React. Each line of code is a carefully placed element, crafting vibrant user interfaces. But like nourishing roots, the backend thrives on Node, Express, and Mongo, ensuring smooth operation. Every tool, from pruners to servers, serves a purpose, just like my compost feeds new growth in both garden and code. My passion for gardening fuels my creativity, translating nature's harmony into the digital world.
         </p>
 
-        <button className="btn btn--full about-button" onClick={handleShowStory}> My whole story</button>
+        <button className="btn btn--full" onClick={handleShowStory}> My whole story</button>
         <button className="btn btn--outline about-button" onClick={handleDownloadPDF}> Download CV</button>
         {showStory ? <ModalContent setShowStory={setShowStory} /> : ""}
 

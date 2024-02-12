@@ -127,12 +127,10 @@ img {
 /* Buttons */
 button {
   border: none;
+  transition: all 0.3s;
 }
-
-.sticky {
-  position: sticky;
-  top: 0;
-  z-index: 1;
+button:hover {
+  box-shadow: 0 0 10px #85d694;
 }
 
 .btn,
@@ -149,17 +147,9 @@ button {
   background-color: transparent; /* Set background-color to transparent */
   color: #757d75; /* Set the text color */
 }
-button {
-  transition: all 0.3s;
-}
-
-button:hover {
-  box-shadow: 0 0 10px #85d694;
-}
 
 .btn--outline {
   border: 3px solid #6f6f6f; /* Set the border color */
-  margin-left: 1.2rem;
 }
 
 .btn--full,
@@ -391,7 +381,6 @@ audio {
 
 .nav span {
   position: absolute;
-  left: 30px;
   width: 30px;
   height: 4px;
   border-radius: 50px;
@@ -437,7 +426,9 @@ audio {
 .section-about {
   padding: 8rem 10rem 8rem 10rem;
 }
-
+.about-button {
+  margin-left: 8px;
+}
 .about-bio {
   font-size: 1.8rem;
   margin-bottom: 2rem;
@@ -463,8 +454,9 @@ audio {
 .work-tabs {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
+  margin-top: 8rem;
   gap: 4rem;
   flex: 2;
 }
@@ -659,11 +651,11 @@ audio {
   opacity: 0.6;
   content: "";
   width: 0;
-  height: 44%;
+  height: 41%;
   position: absolute;
   border: 0.2px solid #b4c7d2;
-  bottom: 29%;
-  left: 13px;
+  bottom: 31%;
+  left: 8px;
 }
 
 /* Experiences Area */
@@ -772,9 +764,12 @@ audio {
 
 .test {
   display: inline;
+  color: #555;
+  line-height: 1.2;
+}
+.blog-title {
   color: #064469;
 }
-
 .contact {
   border-radius: 6px;
   background-color: #ebf0f3;

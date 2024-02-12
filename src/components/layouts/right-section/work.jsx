@@ -108,9 +108,15 @@ function WorkContent({ item, activeTab }) {
     <div className="work-item">
       <div className="work-text">
         <h3 className="heading work-heading">{item.name}</h3>
+        <div className="work-image-res">
+          <div>
+            <a href={item.url} target="_blank" rel="noopener noreferrer">       <img alt="hero" src={`images/${item.image} `} /></a>
+
+          </div>
+        </div>
         <p className="work-description">{item.description}</p>
 
-        <p className="work-description">{item.description2}</p>
+        <p className="work-description work-description2">{item.description2}</p>
         <a className='demo-button' href={item.url} target="_blank" rel="noopener noreferrer">View Demo</a>
       </div>
 
