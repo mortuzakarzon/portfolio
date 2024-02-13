@@ -1,10 +1,10 @@
 import LeftSection from "../../layouts/left-section/left-section";
 import RightSection from "../../layouts/right-section/right-section";
-// import AnimatedCursor from "react-animated-cursor";
+import AnimatedCursor from "react-animated-cursor";
 function Home() {
   return (
     <main className="container">
-      {/* <AnimatedCursor
+      <AnimatedCursor
         innerSize={12}
         outerSize={40}
         innerScale={1}
@@ -17,7 +17,7 @@ function Home() {
         outerStyle={{
           border: "3px solid #888",
         }}
-      /> */}
+      />
       <LeftSection />
       <RightSection />
     </main>
