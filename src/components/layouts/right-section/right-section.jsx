@@ -5,7 +5,7 @@ import Expertise from './expertise';
 import Experiences from './experience';
 import Blog from './blog';
 import Contact from './contact';
-
+import ScrollToTopButton from './scroll-to-top.component';
 function RightSection() {
 
 
@@ -18,6 +18,7 @@ function RightSection() {
     <Experiences />
     <Blog />
     <Contact />
+    <ScrollToTopButton />
 
 
   </div >)

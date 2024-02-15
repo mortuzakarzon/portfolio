@@ -914,3 +914,29 @@ a:hover {
   font-weight: 500;
   margin-bottom: 4rem;
 }
+
+.myBtn {
+  position: fixed;
+  bottom: 4rem;
+  right: 3rem;
+  z-index: 997;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: inherit;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 100%;
+  box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+.scroll-to-top-button.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.myBtn:hover {
+  box-shadow: 3px 3px 5px #85d694;
+}
