@@ -1,0 +1,453 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 122em) {
+  body {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  .section-hero {
+    padding: 4rem 8rem 4rem 10rem;
+  }
+  .nav {
+    padding: 28px 6px;
+  }
+  .nav input {
+    width: 5rem;
+  }
+
+  .section-nav,
+  .nav,
+  .menu {
+    font-size: 1.6rem;
+  }
+
+  .nav input:checked ~ .menu {
+    width: 55.45rem;
+  }
+
+  .menu li {
+    margin: 0px 5px;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+    line-height: 1.4;
+    margin-bottom: 3.6rem;
+  }
+  .btn,
+  .btn--full,
+  .btn--outline {
+    font-size: 1.8rem;
+    padding: 8px 30px;
+  }
+  .btn--outline {
+    border: 1px solid #6f6f6f;
+    border-radius: 4px;
+  }
+  .sub-title {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 4rem;
+  }
+
+  .social-title {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2px;
+  }
+  .titleCloseBtn {
+    margin-top: 4rem;
+    margin-right: 2rem;
+  }
+  .social-icon ul li a {
+    width: 2.4rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    border-radius: 4px;
+    font-size: 1.4rem;
+  }
+  .section-nav,
+  .nav,
+  .menu {
+    font-size: 1.4rem;
+  }
+  .modalContainer {
+    height: 80rem;
+  }
+  .full-story {
+    padding: 4rem;
+  }
+  .profile-card {
+    padding: 2px;
+  }
+}
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+@media (max-width: 112em) {
+  .expertise-item {
+    flex: 1;
+    border: 1px solid #b4c7d2;
+    padding: 3rem 2rem;
+  }
+  .nav input {
+    width: 2.4rem;
+  }
+
+  .nav input:checked ~ .menu {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 106em) {
+  .nav input {
+    width: 3rem;
+  }
+
+  .nav input:checked ~ .menu {
+    width: 47rem;
+  }
+
+  .section-nav,
+  .nav,
+  .menu {
+    font-size: 1.2rem;
+  }
+}
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 86em) {
+  body {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    /* background-color: red; */
+  }
+
+  .heading-primary {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.2rem;
+    line-height: 1.2;
+  }
+
+  .heading-tertiary {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .sub-title {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .btn,
+  .btn--full,
+  .btn--outline {
+    font-size: 1.4rem;
+    padding: 5px 20px;
+  }
+  .btn--outline {
+    border: 1px solid #6f6f6f;
+    border-radius: 4px;
+  }
+  .btn--full,
+  .btn--full:visited {
+    padding: 7px 22px;
+  }
+  .section-about,
+  .section-blog,
+  .section-contact,
+  .section-experiences,
+  .section-expertise,
+  .section-work {
+    padding: 4rem 5rem 4rem 5rem;
+  }
+  .section-hero {
+    padding: 2rem 3rem 4rem 4.2rem;
+  }
+  .hero-text-box {
+    padding: 0rem 10rem 0rem 0rem;
+  }
+  .sub-title {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+  .nav {
+    padding: 16px 2px;
+  }
+  .nav input {
+    width: 2rem;
+  }
+  .nav span {
+    width: 18px;
+    height: 1px;
+  }
+  .menu li a {
+    font-size: 9px;
+  }
+  .section-nav,
+  .nav,
+  .menu {
+    font-size: 1rem;
+  }
+
+  .nav input:checked ~ .menu {
+    width: 47rem;
+  }
+
+  .menu li {
+    margin: 0px 2px;
+  }
+  .social-media {
+    margin-bottom: 4rem;
+  }
+  .social-title {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 4px;
+  }
+
+  .about-bio {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .social-icon ul li {
+    margin: 0 4px;
+  }
+  .social-icon ul li a {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 3px;
+  }
+  .work-area {
+    gap: 5rem;
+  }
+  .work-item {
+    height: 100vh;
+    flex-direction: column;
+  }
+  .work-image-res img {
+    border-radius: 6px;
+    border: 1px solid #333;
+  }
+  .work-image {
+    display: none;
+  }
+
+  .tab {
+    padding: 8px 12px;
+    font-size: 1rem;
+  }
+  .work-heading {
+    font-size: 1.4rem;
+  }
+
+  .work-description {
+    line-height: 1.6;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+  }
+  .test {
+    line-height: 1.6;
+    margin-top: 1.4rem;
+  }
+  .blog-title {
+    margin-top: 1.4rem;
+  }
+  .work-description2 {
+    display: none;
+  }
+
+  .skill-heading {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .software-icon {
+    font-size: 3rem;
+  }
+  .item-description::after {
+    left: 7px;
+  }
+  .demo-button {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 1.4rem;
+    border-radius: 3px;
+  }
+
+  .experience-heading {
+    display: flex;
+    background-color: #cddae1;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    padding: 8px;
+    color: #333;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 6px;
+  }
+}
+
+@media (min-width: 86em) {
+  .work-image-res {
+    display: none;
+  }
+}
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 80em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+  .blogs {
+    gap: 1.2rem;
+  }
+  .blog-content {
+    padding: 3rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+  body {
+    font-size: 1.6rem;
+    line-height: 1.8;
+  }
+  .left-section {
+    flex: 3.2 1;
+  }
+
+  .hero-text-box {
+    padding: 0rem 4rem 0rem 0rem;
+  }
+
+  .expertise-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .expertise-item:not(:first-child) {
+    border-left: 1px solid #b4c7d2;
+  }
+
+  .expertise-item {
+    padding: 4.4rem 12rem;
+  }
+  .item-description::after {
+    left: -1px;
+  }
+  .item-description::after {
+    height: 33%;
+    bottom: 36%;
+  }
+
+  .skill-heading {
+    font-size: 2.2rem;
+  }
+
+  .blogs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-item {
+    margin-bottom: 4rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .nav input:checked ~ .menu {
+    width: 20rem;
+  }
+  .section-nav,
+  .nav,
+  .menu {
+    font-size: 1.7rem;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    flex-direction: column;
+  }
+  .work-area {
+    flex-direction: column;
+  }
+  .work-tabs {
+    display: flex;
+    flex-direction: row;
+  }
+  .expertise-item {
+    padding: 6rem 6rem;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .left-section {
+    flex: none;
+    position: static;
+  }
+
+  .section-hero {
+    align-items: center;
+  }
+  .hero-text-box {
+    padding: 3rem;
+    text-align: center;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
