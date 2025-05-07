@@ -35,7 +35,7 @@ function Expertise() {
         <div className="item-description">
           <div className='description-text'>
 
-            Passionate about UI/UX, with 4+ years in HTML, CSS, JS, React.
+            Passionate about UI/UX, with 4+ years in HTML, CSS, JS, React, Redux, next.
 
           </div>
         </div>
@@ -50,7 +50,7 @@ function Expertise() {
         <div className="item-description">
           <div className='description-text'>
 
-            Skilled in Node, Express, MongoDB, Firebase, npm, and GraphQL.
+            Skilled in Node, Express, MongoDB, Firebase, superbase, npm, and GraphQL.
 
           </div>
         </div>

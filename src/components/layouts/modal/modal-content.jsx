@@ -17,59 +17,29 @@ function ModalContent({ setShowStory }) {
           <img className='Author' src="images/author.jpg" alt="Mortuza Karzon" />
 
           <div className="profile-card">
-            <h2>About Me</h2>
-            <p>
-              In 2012, I embarked on my professional journey as a freelance writer, but despite my initial enthusiasm, I soon found myself grappling with a persistent sense of dissatisfaction. It wasn't until I engaged in deep introspection that I unearthed a profound passion for mathematics and logical reasoning, setting the stage for a transformative career shift into software engineering.
-            </p>
+            <h1>🌱 My Journey into Software Engineering</h1>
+
+            <h2>🧩 Where It All Began</h2>
+            <p>When I first started learning software engineering, I was inspired by my love for math, logic puzzles, and things like the Rubik’s Cube 🧊, which I’ve enjoyed since I was a kid. I began with front-end development, diving into HTML, CSS, and JavaScript to build websites that people could see and interact with. It was like putting together the pieces of a puzzle, making sure everything looked good and worked smoothly.</p>
+            <br />
+            <h2>⚛️ Discovering React and Leveling Up</h2>
+            <p>Then, I discovered React, and it was a game-changer 💡. React helped me build interactive user interfaces much more efficiently. I started creating websites with reusable components, which made my code cleaner and easier to manage. As I got more comfortable with React, I wanted to take it further. I learned Redux 🔁 to manage the state of my apps and explored Next.js 🚀 to build fast, server-rendered websites. I moved from a beginner to an advanced front-end developer, always learning and growing.</p>
             <br />
 
-            <h2>My Journey into Software Engineering</h2>
-            <p>
-              At the age of 35, fueled by this newfound passion, I immersed myself in the world of software development. With unwavering dedication, I embarked on a journey of continuous learning, honing my skills and expertise to craft captivating user interfaces that seamlessly blend functionality with aesthetic appeal.
-            </p>
+            <h2>🛠️ Going Deeper with the Backend</h2>
+            <p>Once I felt confident in front-end development, I wanted to understand how everything worked behind the scenes. So, I started learning back-end technologies. I picked up Node.js, Express, and MongoDB 💾, which helped me build the server-side of applications and handle things like databases and APIs. It was like learning how the roots of a plant support everything above ground 🌱.</p>
             <br />
-            <h2>Skills Overview</h2>
-            <h3>Front-End Expertise:</h3>
-            <ul>
-              <li>HTML, CSS, JavaScript</li>
-              <li>React JS, React-Router</li>
-              <li>React-Bootstrap, Tailwind, DaisyUI, Material UI</li>
-            </ul>
+            <h2>🌼 Coding Like Gardening</h2>
+            <p>In many ways, I see coding like gardening, which is another one of my hobbies 🌿. Gardening is about nurturing and creating a balanced, thriving environment—just like coding, which requires both care and attention to detail. The front-end is like planting and arranging flowers 💐, while the back-end is like enriching the soil and taking care of the roots 🌾. Each tool I use, whether in gardening or development, helps everything grow together.</p>
             <br />
-            <h3>Backend Proficiency:</h3>
-            <ul>
-              <li>Node.js, Express.js</li>
-              <li>JWT (JSON Web Tokens), dotenv</li>
-            </ul>
-            <br />
-            <h3>Database Mastery:</h3>
-            <ul>
-              <li>MongoDB, Firebase</li>
-            </ul>
-            <br />
-            <h3>Toolset Utilization:</h3>
-            <ul>
-              <li>Git, Vercel, VS Code, Netlify</li>
-            </ul>
-            <br />
-            <h3>Design Skills:</h3>
-            <ul>
-              <li>Figma, Photoshop, Illustrator</li>
-            </ul>
-            <br />
-            <h2>Continuous Improvement</h2>
-            <p>
-              Committed to staying abreast of emerging technologies and industry best practices, I actively engage in ongoing professional development, attending workshops, participating in online courses, and contributing to open-source projects.
-            </p>
+            <h2>🤖 Embracing the World of AI</h2>
+            <p>Lately, I’ve been diving into the world of AI 🤓. I’ve become an expert in integrating AI into applications, and now I’m learning even more about how it works. It’s a fascinating world that feels like the future of coding. I'm excited to see how AI can bring new growth and ideas 🌟. My love for puzzles, gardening, and now AI keeps me curious and creative, blending nature’s harmony with cutting-edge technology 🌐.</p>
             <br />
             <h2>Portfolio Showcase</h2>
             <p>
               My body of work speaks volumes about my dedication and proficiency in software engineering. I invite you to explore my projects on GitHub, where I demonstrate my coding prowess and commitment to excellence: <a href="https://github.com/mortuzakarzon">GitHub: mortuzakarzon</a>.
             </p>
             <br />
-            <p>
-              In essence, my journey from freelance writing to software engineering embodies the power of self-discovery and the pursuit of one's true passions. With a robust skill set, an insatiable thirst for knowledge, and a penchant for creativity, I am poised to tackle any challenge and drive meaningful innovation in the ever-evolving landscape of technology.
-            </p>
           </div>
 
         </div>

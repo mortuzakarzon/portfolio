@@ -12,7 +12,7 @@ function About() {
 
   const handleDownloadPDF = () => {
 
-    const pdfPath = "file/cv.pdf"
+    const pdfPath = "file/Profile.pdf"
     const link = document.createElement('a');
     link.href = pdfPath;
     link.download = 'Mortuza Kazon(CV)).pdf';
@@ -47,11 +47,11 @@ function About() {
         <h2 className="Heading heading-secondary">&#60;About /&#62;</h2>
         <h3 className="heading-tertiary">INSPIRED BY DIFFERENCE.</h3>
         <p className="about-bio">
-          I transitioned from freelance writing to software engineering at 35, fueled by a passion for mathematics. Proficient in front-end and back-end technologies, I craft user-centric interfaces and continuously improve through learning and contributing to open-source projects.
+          My Journey from Front-End to Back-End Development, AI Integration, and How My Passion for Logic, Math, and Gardening Shapes My Approach to Crafting User-Centric Technology Solutions.
         </p>
         <p className="about-text">
 
-          Just as I cultivate my garden with planters, lights, and trellises, I build digital gardens using HTML, CSS, and React. Each line of code is a carefully placed element, crafting vibrant user interfaces. But like nourishing roots, the backend thrives on Node, Express, and Mongo, ensuring smooth operation. Every tool, from pruners to servers, serves a purpose, just like my compost feeds new growth in both garden and code. My passion for gardening fuels my creativity, translating nature's harmony into the digital world.
+          A passion for math, logic puzzles, and gardening shaped my path into software engineering. Starting with front-end development, I mastered React and advanced to back-end technologies like Node and Mongo. My coding journey mirrors gardening—each line of code nurtures growth. Now, as an AI integration expert, I’m exploring the future of technology, blending nature’s harmony with the digital world. Join me as I share how these passions have driven me to continuously grow and innovate, from creating user-centric apps to diving into the evolving AI landscape.
         </p>
 
         <button className="btn btn--full" onClick={handleShowStory}> My whole story</button>

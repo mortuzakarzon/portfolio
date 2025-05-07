@@ -53,9 +53,15 @@ function LeftSection() {
             </li>
             <li>
               <a href="https://edabit.com/user/KrbPyz8jFE5rrzZEp" target="_blank" rel="noopener noreferrer">
+                <i className="fab fas fa-brain"></i>
+              </a>
+
+            </li>
+            {/* <li>
+              <a href="https://edabit.com/user/KrbPyz8jFE5rrzZEp" target="_blank" rel="noopener noreferrer">
                 <i className="fas fa-book"></i>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
 
