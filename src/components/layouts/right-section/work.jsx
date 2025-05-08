@@ -1,6 +1,16 @@
 import React, { useState, useEffect } from 'react';
 
 const content = [
+
+  {
+    name: "Drag-and-drop Interface On A Canvas(React + Konva)",
+    description:
+      "Developed an intuitive canvas application using React and Konva that enables users to drag, drop, resize, and create elements with ease. The tool also features a freehand drawing option, offering users a seamless and creative experience for various design applications.",
+    description2: "This project required advanced manipulation of canvas events, state management, and custom UI logic to deliver a smooth, responsive user interface. The result is a powerful, interactive editor tailored to provide both flexibility and ease of use.",
+
+    image: "project 1-konva/konva.png",
+    url: "https://konva-canvas-andrew.netlify.app/"
+  },
   {
     name: "BookLaunchify - Health and Fitness Book Landing React Template",
     description:
@@ -19,16 +29,7 @@ const content = [
 
     image: "movie.jpg",
     url: "https://oriolemovie.sproutiz.com/"
-  },
-  {
-    name: "Omnifood - Food Delivery Landing Template",
-    description:
-      "Introducing Omnifood, a web page meticulously crafted with pure HTML and CSS to showcase the concept of a premium meal delivery service. With a focus on simplicity and elegance, Omnifood promises to deliver healthy and delectable meals right to your doorstep, every single day. From vibrant imagery of wholesome dishes to a user-friendly interface, Omnifood reflects my commitment to creating visually appealing and functional web pages using fundamental web technologies. This project not only underscores my proficiency in HTML and CSS but also highlights my dedication to delivering aesthetically pleasing and user-centric digital experiences.",
-    description2: "From vibrant imagery of wholesome dishes to a user-friendly interface, Omnifood reflects my commitment to creating visually appealing and functional web pages using fundamental web technologies. This project not only underscores my proficiency in HTML and CSS but also highlights my dedication to delivering aesthetically pleasing and user-centric digital experiences.",
-
-    image: "omnifood.jpg",
-    url: "https://foodapp.sproutiz.com/"
-  },
+  }
 
 
 

@@ -35,25 +35,29 @@ function LeftSection() {
 
         <div className='social-icon'>
           <ul>
-            <li>
+            <li className="tooltip">
               <a href="https://github.com/mortuzakarzon" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
+                <span className="tooltip-text">GitHub</span>
               </a>
             </li>
-            <li>
-              <a href="https://www.linkedin.com/in/mortuzakarzon/" target="_blank" rel="noopener noreferrer">
+            <li className="tooltip">
+              <a href="https://www.linkedin.com/in/mortuzakarzon/" target="_blank" rel="noopener noreferrer" >
                 <i className="fab fa-linkedin"></i>
+                <span className="tooltip-text">Linkedin</span>
               </a>
             </li>
-            <li>
+            <li className="tooltip">
               <a href="https://twitter.com/KarzonMort81250" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-twitter"></i>
+                <span className="tooltip-text">Twitter</span>
               </a>
 
             </li>
-            <li>
+            <li className="tooltip">
               <a href="https://edabit.com/user/KrbPyz8jFE5rrzZEp" target="_blank" rel="noopener noreferrer">
                 <i className="fab fas fa-brain"></i>
+                <span className="tooltip-text">Edabit</span>
               </a>
 
             </li>
