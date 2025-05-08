@@ -920,7 +920,7 @@ a:hover {
   bottom: 4rem;
   right: 3rem;
   z-index: 997;
-  font-size: 28px;
+  font-size: 22px;
   border: none;
   outline: none;
   background-color: #fff;
@@ -930,12 +930,16 @@ a:hover {
   border-radius: 100%;
   box-shadow: 3px 3px 5px #aaaaaa;
   font-weight: bold;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.scroll-to-top-button.show {
+.myBtn.show {
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: auto;
 }
 
 .myBtn:hover {

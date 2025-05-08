@@ -2,21 +2,21 @@ import { useState } from "react";
 
 const experiencesData = [
   {
-    position: "Web App Craftsman",
-    company: "Upwork",
-    linkname: "Upwork Profile",
-    period: "2023- Present",
+    position: "Front End Engineer",
+    company: "Freelancer.com",
+    linkname: "Freelancer.com Profile",
+    period: "2020- Present",
     location: "California, United States (Remote)",
-    url: "https://www.upwork.com/freelancers/~01ec1eb07cfc30cd29?s=1110580755107926016",
+    url: "https://www.freelancer.com/u/creativeleads",
     description: "Experienced web app craftsman dedicated to transforming ideas into seamless, intuitive user experiences. With a passion for clean code and a keen eye for design, I bring efficiency and elegance to every project."
   },
   {
-    position: "Software Alchemist",
+    position: "Web App Developer",
     company: "Oriole",
     linkname: "Company Profile",
     period: "2024-Present",
     location: "Khulna, Bangladesh",
-    url: "https://www.freelancer.com/u/creativeleads",
+    url: "https://www.facebook.com/OrioleNetwork/",
     description: "As a skilled software alchemist, I specialize in forging intuitive web experiences. With a fusion of precision coding and creative flair, I bring your ideas to life with seamless functionality and captivating design."
   },
 

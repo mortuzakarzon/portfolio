@@ -27,13 +27,11 @@ const ScrollToTopButton = () => {
   };
 
   return (
-    <button onClick={handleScrollToTop} className="myBtn">
-      <i
-        className={`scroll-to-top-button fab fa-whatsapp ${
-          isVisible ? "show" : ""
-        }`}
-        aria-hidden="true"
-      ></i>
+    <button
+      onClick={handleScrollToTop}
+      className={`myBtn ${isVisible ? "show" : ""}`}
+    >
+      <i className="scroll-to-top-button fas fa-arrow-up" aria-hidden="true"></i>
     </button>
   );
 };
